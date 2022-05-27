@@ -5,8 +5,7 @@ library(viridis)
 library(openxlsx)
 
 # import matrix
-mat = read.xlsx(file.choose(), rowNames = T) # if the input is an excel file
-mat = read.csv(file.choose(), row.names = 1) # if the input is a csv file
+mat = read.xlsx("1F.xlsx", rowNames = T)
 
 mat[is.na(mat)] = 0
 mat = t(mat)
