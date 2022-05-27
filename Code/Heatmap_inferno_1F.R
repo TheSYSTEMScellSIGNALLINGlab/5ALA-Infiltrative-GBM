@@ -5,10 +5,10 @@ library(viridis)
 library(openxlsx)
 
 # import matrix
-mat = read.xlsx("1F.xlsx", rowNames = T)
+mat <- read.xlsx("1F.xlsx", rowNames = T)
 
 mat[is.na(mat)] = 0
-mat = t(mat)
+mat <- t(mat)
 pheatmap(mat,  show_colnames = T, 
          fontsize_row = 10, fontsize_col = 10,
          angle_col = 90,
