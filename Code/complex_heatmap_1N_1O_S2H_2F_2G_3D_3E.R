@@ -6,7 +6,7 @@ library(cluster)
 library(readxl)
 library(dplyr)
 
-gene_list <- read_excel("Hallmarks gene.xlsx", sheet = 1)
+gene_list <- read_excel("Gene_list.xlsx", sheet = 1)
 
 mat <- read.csv('log2_tpm_t.csv')
 
@@ -33,6 +33,39 @@ row.names(Mixed) <- Mixed$Genes
 Mixed <- Mixed[2:51]
 Mixed <- t(scale(t(Mixed)))
 x <- Mixed # Matrix for Inflammatory response + TNFA signaling
+
+
+### Neural geneset selection
+Neural <- mat %>% filter(Genes %in% gene_list$Neural)
+row.names(Neural) <- Neural$Genes
+Neural <- Neural[2:51]
+Neural <- t(scale(t(Neural)))
+x <- Neural # Matrix for Neural
+
+
+### Mesenchymal geneset selection
+Mesenchymal <- mat %>% filter(Genes %in% gene_list$Mesenchymal)
+row.names(Mesenchymal) <- Mesenchymal$Genes
+Mesenchymal <- Mesenchymal[2:51]
+Mesenchymal <- t(scale(t(Mesenchymal)))
+x <- Mesenchymal # Matrix for Neural
+
+
+### GPM geneset selection
+GPM <- mat %>% filter(Genes %in% gene_list$GPM)
+row.names(GPM) <- GPM$Genes
+GPM <- GPM[2:51]
+GPM <- t(scale(t(GPM)))
+x <- GPM # Matrix for GPM
+
+
+### Inflammatory wound response geneset selection
+Inf_wound <- mat %>% filter(Genes %in% gene_list$Inf_wound)
+row.names(Inf_wound) <- Inf_wound$Genes
+Inf_wound <- Inf_wound[2:51]
+Inf_wound <- t(scale(t(Inf_wound)))
+x <- Inf_wound # Matrix for Inflammatory wound response
+
 
 annotation_core <- read.csv('Annotation_core.csv',row.names <- 1)
 annotation_rim <- read.csv('Annotation_rim.csv',row.names <- 1)
