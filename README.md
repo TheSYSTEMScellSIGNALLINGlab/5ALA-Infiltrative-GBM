@@ -2,4 +2,4 @@
 
 ## Scripts
 
-* Heatmap_inferno.R ----> This will produce Figure 1F, 2A, 3A and Supplementary figure 2L, 8E
+* Neftel et al data used in this paper = https://drive.google.com/file/d/1FcaPBSb5jTJFrVoA4EBYd6uDu5evtiUx/view?usp=sharing/Neftel.csv
