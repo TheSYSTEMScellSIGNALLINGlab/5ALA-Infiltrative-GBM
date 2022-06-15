@@ -1,0 +1,16 @@
+,Marker
+KLF4,Yamanaka_factor
+MYC,Yamanaka_factor
+CTNNB1,Cancer_sc
+EPAS1,Cancer_sc
+EZH2,Cancer_sc
+KDM5B,Cancer_sc
+NES,Cancer_sc
+TWIST1,Cancer_sc
+ABCG2,Normal_sc
+CD34,Normal_sc
+CD44,Normal_sc
+NANOG,Normal_sc
+PROM1,Normal_sc
+ZFP42,Normal_sc
+ZSCAN4,Normal_sc
