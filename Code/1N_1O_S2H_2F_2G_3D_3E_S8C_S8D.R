@@ -67,6 +67,22 @@ Inf_wound <- t(scale(t(Inf_wound)))
 x <- Inf_wound # Matrix for Inflammatory wound response
 
 
+### Malta et al geneset selection
+Malta_et_al <- mat %>% filter(Genes %in% gene_list$Malta_et_al)
+row.names(Malta_et_al) <- Malta_et_al$Genes
+Malta_et_al <- Malta_et_al[2:51]
+Malta_et_al <- t(scale(t(Malta_et_al)))
+x <- Malta_et_al # Matrix for Malta_et_al
+
+
+### Stem cell marker database geneset selection
+Stem_Cell_marker_DB <- mat %>% filter(Genes %in% gene_list$Stem_Cell_marker_DB)
+row.names(Stem_Cell_marker_DB) <- Stem_Cell_marker_DB$Genes
+Stem_Cell_marker_DB <- Stem_Cell_marker_DB[2:51]
+Stem_Cell_marker_DB <- t(scale(t(Stem_Cell_marker_DB)))
+x <- Stem_Cell_marker_DB # Matrix for Stem_Cell_marker_DB
+
+
 annotation_core <- read.csv('Annotation_core.csv',row.names <- 1)
 annotation_rim <- read.csv('Annotation_rim.csv',row.names <- 1)
 annotation_inv <- read.csv('Annotation_inv.csv',row.names <- 1)
