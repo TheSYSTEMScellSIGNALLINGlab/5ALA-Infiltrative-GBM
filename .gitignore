@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 
 5ALA-Infiltrative-GBM.Rproj
+.gitignore

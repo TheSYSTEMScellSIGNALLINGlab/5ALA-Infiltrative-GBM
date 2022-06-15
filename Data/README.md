@@ -1,1 +1,1 @@
-This folder contains all the necessary for the respected figures
+This folder contains all the necessary data for the respected figures
