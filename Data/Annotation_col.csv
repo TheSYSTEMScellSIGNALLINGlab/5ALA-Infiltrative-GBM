@@ -1,51 +1,51 @@
-,Region
-Sample_27_5,invasive_region
-Sample_28_5,invasive_region
-Sample_29_5,invasive_region
-Sample_30_5,invasive_region
-Sample_31_5,invasive_region
-Sample_33_5,invasive_region
-Sample_34_6,invasive_region
-Sample_37_5,invasive_region
-Sample_38_5,invasive_region
-Sample_40_5,invasive_region
-Sample_27_neg,neg
-Sample_28_neg,neg
-Sample_29_neg,neg
-Sample_30_neg,neg
-Sample_31_neg,neg
-Sample_33_neg,neg
-Sample_34_neg,neg
-Sample_37_neg,neg
-Sample_38_neg,neg
-Sample_40_neg,neg
-Sample_27_pos,pos
-Sample_28_pos,pos
-Sample_29_pos,pos
-Sample_30_pos,pos
-Sample_31_pos,pos
-Sample_33_pos,pos
-Sample_34_pos,pos
-Sample_37_pos,pos
-Sample_38_pos,pos
-Sample_40_pos,pos
-Sample_27_1,tumor_core
-Sample_28_1,tumor_core
-Sample_29_1,tumor_core
-Sample_30_1,tumor_core
-Sample_31_1,tumor_core
-Sample_33_2,tumor_core
-Sample_34_3,tumor_core
-Sample_37_2,tumor_core
-Sample_38_1,tumor_core
-Sample_40_2,tumor_core
-Sample_27_2,tumor_rim
-Sample_28_2,tumor_rim
-Sample_29_3,tumor_rim
-Sample_30_2,tumor_rim
-Sample_31_2,tumor_rim
-Sample_33_3,tumor_rim
-Sample_34_5,tumor_rim
-Sample_37_3,tumor_rim
-Sample_38_2,tumor_rim
-Sample_40_3,tumor_rim
+id,Annotation
+Sample 27_1,Core
+Sample 27_2,Rim
+Sample 27_5,Inv
+Sample 27_neg,Neg
+Sample 27_pos,Pos
+Sample 28_1,Core
+Sample 28_2,Rim
+Sample 28_5,Inv
+Sample 28_neg,Neg
+Sample 28_pos,Pos
+Sample 29_1,Core
+Sample 29_3,Rim
+Sample 29_5,Inv
+Sample 29_neg,Neg
+Sample 29_pos,Pos
+Sample 30_1,Core
+Sample 30_2,Rim
+Sample 30_5,Inv
+Sample 30_neg,Neg
+Sample 30_pos,Pos
+Sample 31_1,Core
+Sample 31_2,Rim
+Sample 31_5,Inv
+Sample 31_neg,Neg
+Sample 31_pos,Pos
+Sample 33_2,Core
+Sample 33_3,Rim
+Sample 33_5,Inv
+Sample 33_neg,Neg
+Sample 33_pos,Pos
+Sample 34_3,Core
+Sample 34_5,Rim
+Sample 34_6,Inv
+Sample 34_neg,Neg
+Sample 34_pos,Pos
+Sample 37_2,Core
+Sample 37_3,Rim
+Sample 37_5,Inv
+Sample 37_neg,Neg
+Sample 37_pos,Pos
+Sample 38_1,Core
+Sample 38_2,Rim
+Sample 38_5,Inv
+Sample 38_neg,Neg
+Sample 38_pos,Pos
+Sample 40_2,Core
+Sample 40_3,Rim
+Sample 40_5,Inv
+Sample 40_neg,Neg
+Sample 40_pos,Pos
